@@ -4,12 +4,27 @@
 
 Colors:
 
+Frog Eye Black Brown - #261E17
+Frog Dark Brown - #594022
+Frog Brown - #734D2C
+Frog Beige - #A6774E
+Far Woods Green - #658C11
+Far Woods Muted Green - #748C3F
+Far Woods Light Green - #74A60A
+Far Woods Bright Green - #9ABF11
+Far Woods Reflective Green Gray - #C8D9B0
 
 
 Font-Families:
 
+font-family: 'Alkatra', cursive;
+font-family: 'Archivo', sans-serif;
+font-family: 'Chewy', cursive;
+
 
 */
+
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;700&family=Archivo:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&family=Chewy&display=swap');
 
 *, *:after {
     margin: 0;
@@ -17,20 +32,97 @@ Font-Families:
     border: 0;
 }
 
-h1 {
+body {
+	background-color: #748C3F;
+	
+}
 
+h1 {
+	text-align: center;
+	align-content: center;
+	font-family: 'Chewy', cursive;
+	font-size: 6em;
+	color: #261E17;
+	text-shadow: 3px 3px 0 #C8D9B0;
+}
+
+header {
+	padding-top: 5em;
+	background-image: url("../images/newsFrog.jpg");
+	background-size: cover;
+	min-height: 200px;
+}
+
+nav {
+	text-align: center;
+	font-size: 1.6em;
+	font-family: 'Alkatra', cursive;
+	border: solid;
+	border-left: none;
+	border-right: none;
+	border-width: 3px;
+	border-color: #594022;
+	background-color: #9ABF11;
+}
+
+nav ul{
+	list-style-type: none;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 0 2em;
+}
+
+nav ul li a:link {
+	text-decoration: none;
+}
+
+nav ul li a:hover {
+	text-decoration: none;
+}
+
+nav ul li a:active {
+	text-decoration: none;
+}
+
+nav ul li a:visited {
+	text-decoration: none;
 }
 
 h2 {
+	padding: .5em 1em;
+	font-family: 'Alkatra', cursive;
+}
 
+main {
+	min-height: 400px;
+	margin: 1.5em;
+	border: solid;
+	border-width: 7px;
+	border-color: #594022;
+	border-radius: 45px;
+	background-color: #74A60A;
+	box-shadow: 4px 4px 0 0 #734D2C;
 }
 
 img {
     float: left;
+	height: 300px;
+	margin: 0.8em;
+	border: solid;
+	border-color: #594022;
+	border-width: .5em;
+	border-radius: 90px;
+	box-shadow: 4px 4px 0 0 #734D2C;
 }
 
-body {
-
+.attribution li img {
+	border: none;
+	box-shadow: none;
+	margin: 0;
+	display: inline-block;
+	float: none;
 }
 
 table {
@@ -38,5 +130,13 @@ table {
 }
 
 blockquote {
-
+	padding: 0.3em 0 0.7em 6em;
+	text-align: center;
+	align-content: center;
+	font-family: 'Chewy', cursive;
+	font-size: 3.5em;
+	color: #261E17;
+	text-shadow: 3px 3px 0 #C8D9B0;
 }
+
+
