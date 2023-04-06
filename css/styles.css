@@ -76,18 +76,21 @@ nav ul li{
 
 nav ul li a:link {
 	text-decoration: none;
+	color: #261E17;
 }
 
 nav ul li a:hover {
-	text-decoration: none;
+	text-decoration: underline;
+	color: #594022;
 }
 
 nav ul li a:active {
-	text-decoration: none;
+	color: #A6774E;
+	text-shadow: 0px 0px 2px #261E17;
 }
 
 nav ul li a:visited {
-	text-decoration: none;
+	color: #594022;
 }
 
 h2 {
@@ -96,7 +99,8 @@ h2 {
 }
 
 main {
-	min-height: 400px;
+	font-family: 'Archivo', sans-serif;
+	min-height: 500px;
 	margin: 1.5em;
 	border: solid;
 	border-width: 7px;
@@ -104,6 +108,19 @@ main {
 	border-radius: 45px;
 	background-color: #74A60A;
 	box-shadow: 4px 4px 0 0 #734D2C;
+}
+
+main p{
+	margin: 1.2em;
+	font-size: 1.2em;
+}
+
+main ul{
+	float: left;
+}
+
+main ul li{
+	margin: 1em;
 }
 
 img {
@@ -117,6 +134,10 @@ img {
 	box-shadow: 4px 4px 0 0 #734D2C;
 }
 
+.rightFloat {
+	float: right;
+}
+
 .attribution li img {
 	border: none;
 	box-shadow: none;
@@ -125,8 +146,49 @@ img {
 	float: none;
 }
 
-table {
+form {
+	margin: 0.8em;
+	border: solid;
+	border-color: #594022;
+	border-width: .5em;
+	border-radius: 5px;
+	box-shadow: 4px 4px 0 0 #734D2C;
+	float: left;
+}
 
+table {
+	font-size: 1.4em;
+	font-family: 'Archivo', sans-serif;
+}
+
+table input {
+	font-size: 1.2em;
+	background-color: #C8D9B0;
+	border: double;
+	border-width: 4px;
+	border-color: #594022;
+}
+
+.btn {
+	border: solid;
+	border-color: #594022;
+	border-width: 1px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 0 0 #734D2C;
+}
+
+.btn:hover {
+	color: #C8D9B0;
+	background-color: #261E17;
+	border-color: #74A60A;
+	box-shadow: 2px 2px 0 0 #658C11;
+}
+
+.btn:active {
+	color: #9ABF11;
+	background-color: #594022;
+	border-color: #74A60A;
+	box-shadow: 2px 2px 0 0 #658C11;
 }
 
 blockquote {
@@ -138,5 +200,19 @@ blockquote {
 	color: #261E17;
 	text-shadow: 3px 3px 0 #C8D9B0;
 }
+
+footer {
+	
+}
+
+footer p {
+	text-align: center;
+	padding: 2em 4em 0;
+}
+
+.copy {
+	padding: 1em;
+}
+
 
 
