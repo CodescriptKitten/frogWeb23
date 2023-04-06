@@ -202,7 +202,9 @@ blockquote {
 }
 
 footer {
-	
+	background-color: #C8D9B0;
+	color: #261E17;
+	min-height: 100px;
 }
 
 footer p {
@@ -213,6 +215,3 @@ footer p {
 .copy {
 	padding: 1em;
 }
-
-
-
